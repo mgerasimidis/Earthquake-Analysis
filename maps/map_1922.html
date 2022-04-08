@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f8b0ed5e8f3744ebb64774ff16bbe41d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f8b0ed5e8f3744ebb64774ff16bbe41d" ></div>
+        
+</body>
+<script>    
+    
+            var map_f8b0ed5e8f3744ebb64774ff16bbe41d = L.map(
+                "map_f8b0ed5e8f3744ebb64774ff16bbe41d",
+                {
+                    center: [37.89181372549019, 23.46632352941175],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_f8b0ed5e8f3744ebb64774ff16bbe41d);
+
+            
+
+        
+    
+            var tile_layer_830cdac9964e4ec9a7158f91084d4588 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f8b0ed5e8f3744ebb64774ff16bbe41d);
+        
+    
+            var marker_32b4e58421e34f6f99972608e545e263 = L.marker(
+                [39.28, 20.7],
+                {}
+            ).addTo(map_f8b0ed5e8f3744ebb64774ff16bbe41d);
+        
+    
+        var popup_30e1cd7366874e6797df96e05264660d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9d1ca3953ec4e73934736e4ba75aea8 = $(`<div id="html_f9d1ca3953ec4e73934736e4ba75aea8" style="width: 100.0%; height: 100.0%;">['Month:1', 'Date:12', 'Magnitude (R):5.0']</div>`)[0];
+            popup_30e1cd7366874e6797df96e05264660d.setContent(html_f9d1ca3953ec4e73934736e4ba75aea8);
+        
+
+        marker_32b4e58421e34f6f99972608e545e263.bindPopup(popup_30e1cd7366874e6797df96e05264660d)
+        ;
+
+        
+    
+    
+            var marker_48da102d08e14deba84171cef8261c67 = L.marker(
+                [36.0, 25.5],
+                {}
+            ).addTo(map_f8b0ed5e8f3744ebb64774ff16bbe41d);
+        
+    
+        var popup_86e3627fdee04d5994b0fce60c23ff19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_326c43d3d76f43559961305c844cb97a = $(`<div id="html_326c43d3d76f43559961305c844cb97a" style="width: 100.0%; height: 100.0%;">['Month:4', 'Date:20', 'Magnitude (R):5.2']</div>`)[0];
+            popup_86e3627fdee04d5994b0fce60c23ff19.setContent(html_326c43d3d76f43559961305c844cb97a);
+        
+
+        marker_48da102d08e14deba84171cef8261c67.bindPopup(popup_86e3627fdee04d5994b0fce60c23ff19)
+        ;
+
+        
+    
+    
+            var marker_3557c2857c9246db9438efef45d2a5ce = L.marker(
+                [37.58, 24.29],
+                {}
+            ).addTo(map_f8b0ed5e8f3744ebb64774ff16bbe41d);
+        
+    
+        var popup_5812b2682c31412d81cc98be461cfede = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70df9b93bc5745faa7150124f4a3e92e = $(`<div id="html_70df9b93bc5745faa7150124f4a3e92e" style="width: 100.0%; height: 100.0%;">['Month:8', 'Date:8', 'Magnitude (R):5.4']</div>`)[0];
+            popup_5812b2682c31412d81cc98be461cfede.setContent(html_70df9b93bc5745faa7150124f4a3e92e);
+        
+
+        marker_3557c2857c9246db9438efef45d2a5ce.bindPopup(popup_5812b2682c31412d81cc98be461cfede)
+        ;
+
+        
+    
+    
+            var marker_b124a5c327be4561aff3354651778609 = L.marker(
+                [37.89, 23.17],
+                {}
+            ).addTo(map_f8b0ed5e8f3744ebb64774ff16bbe41d);
+        
+    
+        var popup_2c1ced673ce3450f861e8d7175786e34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f60826452dc5421eb2c5c36e8cb095e0 = $(`<div id="html_f60826452dc5421eb2c5c36e8cb095e0" style="width: 100.0%; height: 100.0%;">['Month:8', 'Date:15', 'Magnitude (R):5.1']</div>`)[0];
+            popup_2c1ced673ce3450f861e8d7175786e34.setContent(html_f60826452dc5421eb2c5c36e8cb095e0);
+        
+
+        marker_b124a5c327be4561aff3354651778609.bindPopup(popup_2c1ced673ce3450f861e8d7175786e34)
+        ;
+
+        
+    
+    
+            var marker_74f893a8f7e746df9e500e0872f209f6 = L.marker(
+                [36.0, 28.0],
+                {}
+            ).addTo(map_f8b0ed5e8f3744ebb64774ff16bbe41d);
+        
+    
+        var popup_8ed95011b5e94c54b5f8332d696bbc45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18ac777c561346738692eafb0c3eb46a = $(`<div id="html_18ac777c561346738692eafb0c3eb46a" style="width: 100.0%; height: 100.0%;">['Month:8', 'Date:17', 'Magnitude (R):5.0']</div>`)[0];
+            popup_8ed95011b5e94c54b5f8332d696bbc45.setContent(html_18ac777c561346738692eafb0c3eb46a);
+        
+
+        marker_74f893a8f7e746df9e500e0872f209f6.bindPopup(popup_8ed95011b5e94c54b5f8332d696bbc45)
+        ;
+
+        
+    
+    
+            var marker_8cdcadb988414ee7b7434151f0b1dd51 = L.marker(
+                [37.84, 22.03],
+                {}
+            ).addTo(map_f8b0ed5e8f3744ebb64774ff16bbe41d);
+        
+    
+        var popup_89d7dac4c4b24f6e86fd2c24c0eeb35c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7fb19d61fe849c98b26351121440110 = $(`<div id="html_b7fb19d61fe849c98b26351121440110" style="width: 100.0%; height: 100.0%;">['Month:11', 'Date:11', 'Magnitude (R):5.2']</div>`)[0];
+            popup_89d7dac4c4b24f6e86fd2c24c0eeb35c.setContent(html_b7fb19d61fe849c98b26351121440110);
+        
+
+        marker_8cdcadb988414ee7b7434151f0b1dd51.bindPopup(popup_89d7dac4c4b24f6e86fd2c24c0eeb35c)
+        ;
+
+        
+    
+    
+            var marker_ecf5b6c0952e47e292a95a2ca54fd5e0 = L.marker(
+                [40.01, 21.51],
+                {}
+            ).addTo(map_f8b0ed5e8f3744ebb64774ff16bbe41d);
+        
+    
+        var popup_ff921ae1d08b4b429b3b6e2d47a83857 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d17cd7d331444271bdc483a1bff49414 = $(`<div id="html_d17cd7d331444271bdc483a1bff49414" style="width: 100.0%; height: 100.0%;">['Month:12', 'Date:7', 'Magnitude (R):5.5']</div>`)[0];
+            popup_ff921ae1d08b4b429b3b6e2d47a83857.setContent(html_d17cd7d331444271bdc483a1bff49414);
+        
+
+        marker_ecf5b6c0952e47e292a95a2ca54fd5e0.bindPopup(popup_ff921ae1d08b4b429b3b6e2d47a83857)
+        ;
+
+        
+    
+</script>
