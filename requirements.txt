@@ -1,0 +1,8 @@
+pandas
+plotly.express
+folium
+matplotlib.pyplot
+dash
+dcc
+html
+dash.dependencies
