@@ -1,1 +1,2 @@
+web: python earthquakes.py
 worker: python earthquakes.py
